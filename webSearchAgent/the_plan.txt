@@ -1,0 +1,12 @@
+Strategy for the Deep Research Agent
+- We are going to build it the bullet proof way.
+- We are going to orchestrate with code: separate calls to Runner.run() for each step of the process
+- We will use structured outputs at each point
+
+We will build 4 agents
+1. The Search Agent: searches the web for information
+2. The Planner Agent: given a question, comes up with a list of searches that should be made
+3. The Writer Agent: writes a robust report
+4. The Emailer Agent: crafts and sends an email
+
+and then 4 python functions, 1 call to Runner.run() for each of the 4 agents
